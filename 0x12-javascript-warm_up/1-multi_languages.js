@@ -1,4 +1,6 @@
 #!/usr/bin/node
-console.log('C is fun');
-console.log('Python is cool');
-console.log('Javascript is amazing');
+myVar = ["C is fun" ,"Python is cool","Javascript is amazing"]
+for (let index = 0; index < myVar.length; index++) {
+    const element = myVar[index];
+    console.log(element)
+}
